@@ -1,12 +1,11 @@
-# Programmetic Committer
+# File upload to SFTP server
 
-This will update a file i.e. main.js and will commit, push and create a PR as well.
+This will upload files to SFTP server
 
+## Dependencies:
 
-## Dependencies: 
-Python, pip/pip3, requests, python-decouple, Github Access token(For PR creation)
+Python, pip/pip3, paramiko, python-decouple
 
-copy .env.example to .env
+copy .env.example to .env and add values
 
-To run: `python git.py`
-
+To run: `python sftp.py`
