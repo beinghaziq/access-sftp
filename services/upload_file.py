@@ -1,4 +1,3 @@
-import json
 import paramiko
 from decouple import config
 
